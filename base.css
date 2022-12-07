@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  overflow-x: hidden;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--color-text);
+}
+
+.wrapper {
+  max-width: 192rem;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 135rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+input,
+textarea,
+button {
+  font-size: inherit;
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,27 @@
+:root {
+  --color-primary: #eb6d20;
+  --color-third: #eb8426;
+  --color-text: #3e3e3e;
+  --color-subtext: #9a9a9a;
+  --color-paragraph: #292929;
+  --color-sys-success: #6db95a;
+  --color-sys-error: #dd5e5e;
+  --color-sys-warning: #d89614;
+  --color-sys-url: #177ddc;
+  --color-header: #fff9f3;
+  --color-gray: #f5f6f8;
+  --bg-card-d3: #d3fbd9;
+  --bg-purple: #5959d9;
+  --color-light: #d6d6d6;
+  --bg-header: #fff9f3;
+  --color-white: #ffff;
+
+  --space-24: 2.4rem;
+  --space-8: 0.8rem;
+  --space-48: 4.8rem;
+  --space-12: 1.2rem;
+  --space-16: 1.6rem;
+  --space-10: 1rem;
+  --space-30: 3rem;
+  --space-110: 11rem;
+}

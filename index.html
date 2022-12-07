@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__main">
+            <div class="header__top">
+              <div class="header__logo">
+                <a href="#">
+                  <img src="./img/E-commerce.svg" alt="logo" />
+                </a>
+              </div>
+              <div class="header__search header__search--desktop">
+                <div class="header__form-search">
+                  <div class="btn header__btn-categories">All categories</div>
+                  <input
+                    type="text"
+                    placeholder="Search anything"
+                    class="header__input"
+                  />
+                  <div class="icon icon-search">
+                    <img
+                      src="./img/Search_alt_duotone_line.svg"
+                      alt="icon search"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="header__action">
+                <div class="btn btn--orange btn-help">Help</div>
+
+                <div class="header__account header__btn">
+                  <div class="action-icon icon-user">
+                    <img
+                      src="./img/User.svg"
+                      alt="icon user"
+                      class="header__img"
+                    />
+                  </div>
+
+                  <span>Account</span>
+                </div>
+                <div class="header__bag header__btn">
+                  <div class="action-icon icon-bag">
+                    <img
+                      src="./img/Bag_alt.svg"
+                      alt="icon user"
+                      class="header__img"
+                    />
+                  </div>
+                  <div class="header__count">10</div>
+                  <span>Shoping</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="header__bottom">
+              <nav class="header__menu">
+                <label for="input-checked" class="btn btn-toggle">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </label>
+
+                <div class="header__search header__search--mobile">
+                  <div class="header__form-search">
+                    <div class="btn header__btn-categories">All categories</div>
+                    <input
+                      type="text"
+                      placeholder="Search anything"
+                      class="header__input"
+                    />
+                    <div class="icon icon-search">
+                      <img
+                        src="./img/Search_alt_duotone_line.svg"
+                        alt="icon search"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <input type="checkbox" id="input-checked" hidden />
+                <label for="input-checked" class="btn-toggle-x"> x</label>
+                <div class="bg"></div>
+                <ul class="header__menu-list">
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link"
+                      >Jewelry & Accessories
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link">Clothing & Shoes </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link">Home & Living </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link active"
+                      >Wedding & Party
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link"
+                      >Toys & Entertainment
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link"
+                      >Art & Collectibles
+                    </a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#" class="header__menu-link"
+                      >Craft Supplies & Tools
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="container">
+          <section class="product">
+            <div class="background"></div>
+
+            <div class="collection">
+              <ul class="collection__list">
+                <li class="collection__item">
+                  <img src="./img/Group 6.png" alt="collection" />
+                </li>
+                <li class="collection__item">
+                  <img src="./img/Group 7.png" alt="collection" />
+                </li>
+                <li class="collection__item">
+                  <img src="./img/Group 8(1).png" alt="collection" />
+                </li>
+              </ul>
+            </div>
+            <div class="collection-product">
+              <ul class="product__list">
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19.png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Vonna Neva Walnut Sandalye Chair</p>
+                    </div>
+                    <span class="card__price">195,13 $</span>
+                  </div>
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19 (2).png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Wood lamp, Floor Lamp, Lambader, Decorative</p>
+                    </div>
+                    <span class="card__price">458,43 $</span>
+                  </div>
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19.png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>
+                        Lace Punch Needle Pillow Covers with invisible zipper,
+                        16*16 inches
+                      </p>
+                    </div>
+                    <span class="card__price">43,23 $</span>
+                  </div>
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19 (1).png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Vonna Neva Walnut Sandalye Chair</p>
+                    </div>
+                    <span class="card__price">195,13 $</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="collection-text">
+              <ul class="collection-text__list">
+                <li class="card-text__item">
+                  <div class="card-text__content">
+                    <h4 class="card-text__title">
+                      A community <br />
+                      doing good
+                    </h4>
+                    <p class="card-text__desc">
+                      Commerce is a global online marketplace, where people.
+                    </p>
+                  </div>
+                  <div class="card-text__media">
+                    <img
+                      src="./img/unsplash_bU8TeXhsPcY.png"
+                      alt="card-text 1
+                            "
+                    />
+                  </div>
+                </li>
+                <li class="card-text__item">
+                  <div class="card-text__content">
+                    <h4 class="card-text__title">
+                      Support independent creators
+                    </h4>
+                    <p class="card-text__desc">
+                      Just millions of people selling the things they love.
+                    </p>
+                  </div>
+                  <div class="card-text__media">
+                    <img
+                      src="./img/unsplash_esRJtEsvJhU.png"
+                      alt="card-text 1
+                            "
+                    />
+                  </div>
+                </li>
+                <li class="card-text__item">
+                  <div class="card-text__content">
+                    <h4 class="card-text__title">Peace of mind</h4>
+                    <p class="card-text__desc">
+                      Privacy is the highest priority of our dedicated team.
+                    </p>
+                  </div>
+                  <div class="card-text__media">
+                    <img
+                      src="./img/unsplash_m_7p45JfXQo.png"
+                      alt="card-text 1
+                            "
+                    />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="collection-slide">
+            <div class="slide__top">
+              <h3 class="h3-title">
+                Find things you'll love. Support independent sellers.
+              </h3>
+              <span class="sub-title">Only on polka.</span>
+              <div class="slide-box">
+                <ul class="slide-box__list">
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 25.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Craft Kits</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 27.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Throw Pillows</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 29.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Natural Glass</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 31.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Self-care</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 33.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Gift Ideas</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 35.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Wall Decor</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 37.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Wedding</div>
+                    </div>
+                  </li>
+                  <li class="slide-box__item">
+                    <div class="card-slide__media">
+                      <img
+                        src="./img/Rectangle 39.png"
+                        class="card-slide__img"
+                        alt="25"
+                      />
+                    </div>
+                    <div class="card-silde__content">
+                      <div class="card-slide__text">Wedding</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="slide__bottom">
+              <h3 class="h3-title">Discover unique hand-picked items</h3>
+              <div class="slide-box">
+                <ul class="slide-unique__list">
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 47.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>Distressed Tote Leather Bag Leather Bag</p>
+                      </div>
+                      <span class="card__price">216,27 $</span>
+                    </div>
+                  </li>
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 49.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>Womens Cognac Leather Elastic Straps</p>
+                      </div>
+                      <span class="card__price">195,13 $</span>
+                    </div>
+                  </li>
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 51.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>Distressed Tote Leather Bag Leather Bag</p>
+                      </div>
+                      <span class="card__price">910,76 $</span>
+                    </div>
+                  </li>
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 53.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>High Top Canvas Shoes</p>
+                      </div>
+                      <span class="card__price">195,13 $</span>
+                    </div>
+                  </li>
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 55.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>Rose Gold Moissanite Vintage Wedding Ring Set</p>
+                      </div>
+                      <span class="card__price">195,13 $</span>
+                    </div>
+                  </li>
+                  <li class="card-product card-product--white">
+                    <div class="card__icon">
+                      <img src="./img/Group 1.svg" alt="icon " />
+                    </div>
+                    <div class="card-product__media">
+                      <img
+                        src="./img/Rectangle 57.png"
+                        alt="product 1"
+                        class="card-product__img"
+                      />
+                    </div>
+                    <div class="card-product__content">
+                      <div class="card__desc">
+                        <p>Blue Topaz Bangle 24K Gold Plated Handmade</p>
+                      </div>
+                      <span class="card__price">789,09 $</span>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <section class="collection-tab">
+            <div class="tab-menu">
+              <ul class="tab-menu__list">
+                <li class="tab-menu__item">Modern Farmhouse</li>
+                <li class="tab-menu__item">Eclectic Decor</li>
+                <li class="tab-menu__item">Polka Boho Decor</li>
+                <li class="tab-menu__item active">Minimalist Style</li>
+                <li class="tab-menu__item">Anniversary Gift</li>
+                <li class="tab-menu__item">Wedding Gifts</li>
+              </ul>
+              <ul class="tab-show__product">
+                <li class="product__item card-product">
+                  <img
+                    src="./img/unsplash_M7cQqGjBNm8.png"
+                    alt="img"
+                    class="tab-show__img"
+                  />
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19.png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Vonna Neva Walnut Sandalye Chair</p>
+                    </div>
+                    <span class="card__price">195,13 $</span>
+                  </div>
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19.png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Vonna Neva Walnut Sandalye Chair</p>
+                    </div>
+                    <span class="card__price">195,13 $</span>
+                  </div>
+                </li>
+                <li class="product__item card-product">
+                  <div class="card__icon">
+                    <img src="./img/Group 1.svg" alt="icon " />
+                  </div>
+                  <div class="card-product__media">
+                    <img
+                      src="./img/Rectangle 19.png"
+                      alt="product 1"
+                      class="card-product__img"
+                    />
+                  </div>
+                  <div class="card-product__content">
+                    <div class="colors">
+                      <span class="color-text">Colors</span>
+                      <ul class="color__list">
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                        <li class="color__item"></li>
+                      </ul>
+                    </div>
+                    <div class="card__desc">
+                      <p>Vonna Neva Walnut Sandalye Chair</p>
+                    </div>
+                    <span class="card__price">195,13 $</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <ul class="slide-unique__list">
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 47.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>Distressed Tote Leather Bag Leather Bag</p>
+                  </div>
+                  <span class="card__price">216,27 $</span>
+                </div>
+              </li>
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 49.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>Womens Cognac Leather Elastic Straps</p>
+                  </div>
+                  <span class="card__price">195,13 $</span>
+                </div>
+              </li>
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 51.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>Distressed Tote Leather Bag Leather Bag</p>
+                  </div>
+                  <span class="card__price">910,76 $</span>
+                </div>
+              </li>
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 53.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>High Top Canvas Shoes</p>
+                  </div>
+                  <span class="card__price">195,13 $</span>
+                </div>
+              </li>
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 55.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>Rose Gold Moissanite Vintage Wedding Ring Set</p>
+                  </div>
+                  <span class="card__price">195,13 $</span>
+                </div>
+              </li>
+              <li class="product__item card-product card-product--white">
+                <div class="card__icon">
+                  <img src="./img/Group 1.svg" alt="icon " />
+                </div>
+                <div class="card-product__media">
+                  <img
+                    src="./img/Rectangle 57.png"
+                    alt="product 1"
+                    class="card-product__img"
+                  />
+                </div>
+                <div class="card-product__content">
+                  <div class="card__desc">
+                    <p>Blue Topaz Bangle 24K Gold Plated Handmade</p>
+                  </div>
+                  <span class="card__price">789,09 $</span>
+                </div>
+              </li>
+            </ul>
+          </section>
+          <section class="register">
+            <div class="box-register">
+              <div class="register__content">
+                <span>Yes!</span>
+                <p class="register__title">
+                  <br />
+                  Send me exclusive offers, unique gift ideas, and personalized
+                  <br />
+                  tips for shopping and selling on Commerce.
+                </p>
+              </div>
+              <div class="box-register__input">
+                <input
+                  type="text"
+                  placeholder="Drop your email"
+                  class="register__input"
+                />
+
+                <div class="btn btn-Subscribe btn--orange">Subscribe</div>
+              </div>
+              <div class="box-text">
+                <a href="#" class="text__order"
+                  >First order only. You’re ready?</a
+                >
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-top">
+          <div class="footer-text">
+            Commerce, is powered by 100% renewable electricity.
+          </div>
+        </div>
+        <div class="container">
+          <div class="footer__mid">
+            <div class="footer__left">
+              <div class="footer__logo">
+                <img src="./img/E-commerce.svg" alt="logo" />
+              </div>
+              <div class="footer__location">
+                <p>
+                  Cricklewood, <br />
+                  London NW2 6qg, Uk
+                </p>
+              </div>
+              <div class="footer__social">
+                <ul class="footer__social-list">
+                  <li class="footer__social-item">
+                    <a href="#">
+                      <img src="./img/facebook.svg" alt="facebook" />
+                    </a>
+                  </li>
+                  <li class="footer__social-item twitter">
+                    <a href="#">
+                      <img src="./img/twitter.svg" alt="facebook" />
+                    </a>
+                  </li>
+                  <li class="footer__social-item linkedin">
+                    <a href="#">
+                      <img src="./img/linkedin.svg" alt="facebook" />
+                    </a>
+                  </li>
+                  <li class="footer__social-item dribbble">
+                    <a href="#">
+                      <img src="./img/dribbble.svg" alt="facebook" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer__right">
+              <ul class="footer__menu">
+                <li class="footer__item">
+                  <input type="checkbox" id="input-sub-1" hidden />
+                  <label for="input-sub-1" class="title">Shop</label>
+
+                  <ul class="sub-menu">
+                    <li class="sub-menu__item">
+                      <a href="#">Gift cards</a>
+                    </li>
+                    <li class="sub-menu__item"><a href="#"> Site map </a></li>
+                    <li class="sub-menu__item"><a href="#">Polka blog</a></li>
+                    <li class="sub-menu__item">
+                      <a href="#">Login</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a href="#">Sign in</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__item">
+                  <input type="checkbox" id="input-sub-2" hidden />
+                  <label for="input-sub-2" class="title">Sell</label>
+
+                  <ul class="sub-menu">
+                    <li class="sub-menu__item">
+                      <a href="#">Sell on Polka</a>
+                    </li>
+                    <li class="sub-menu__item"><a href="#"> Teams </a></li>
+                    <li class="sub-menu__item"><a href="#">Forums</a></li>
+                    <li class="sub-menu__item">
+                      <a href="#">Affiliates</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__item">
+                  <input type="checkbox" id="input-sub-3" hidden />
+                  <label for="input-sub-3" class="title">About</label>
+                  <ul class="sub-menu">
+                    <li class="sub-menu__item">
+                      <a href="#">Polka, Inc.</a>
+                    </li>
+                    <li class="sub-menu__item"><a href="#"> Policies </a></li>
+                    <li class="sub-menu__item"><a href="#">Investors</a></li>
+                    <li class="sub-menu__item">
+                      <a href="#">Careers</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a href="#">Press</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="footer__item">
+                  <input type="checkbox" id="input-sub-4" hidden />
+                  <label for="input-sub-4" class="title">Help</label>
+                  <ul class="sub-menu">
+                    <li class="sub-menu__item">
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a href="#"> Trust and safety </a>
+                    </li>
+                    <li class="sub-menu__item">
+                      <a href="#">Privacy settings</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__bottom container">
+          <div class="footer__bottom-right">
+            <p>© 2022 Commerce, Inc.</p>
+          </div>
+          <div class="footer__bottom-center">
+            <div class="center__item">Privacy policy</div>
+            <div class="center__item">Terms of use</div>
+            <div class="center__item">Cookies</div>
+          </div>
+          <div class="footer__bottom-left">
+            <p>Scroll to top &uarr;</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
