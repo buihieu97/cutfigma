@@ -50,4 +50,76 @@ button {
   font-family: inherit;
   border: none;
   outline: none;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: #9a9a9a;
+}
+.slide-box__list,
+.slide-unique__list,
+.collection-text__list,
+.product__list {
+  scroll-behavior: smooth;
+}
+.slide-box,
+.collection-tab,
+.collection-product,
+.collection-text {
+  position: relative;
+}
+.box-dot {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 50%;
+  bottom: -35px;
+  transform: translateX(-50%);
+}
+
+.btn-dot {
+  width: 12px;
+  height: 12px;
+  background: #f5f6f8;
+  border-radius: 99rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-dot:hover {
+  background: #eb6d20;
+}
+.btn-dot.active {
+  background: #eb6d20;
+}
+.slide-box__dot,
+.unique-box__dot {
+  display: none;
+}
+.collection-product .product__list .box-dot,
+.collection-text .collection-text__list .box-dot {
+  display: none;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .slide-box__dot {
+    display: flex;
+  }
+  .collection-product .product__list .box-dot {
+    display: flex;
+
+    bottom: 0;
+  }
+  .collection-text .collection-text__list .box-dot {
+    display: flex;
+
+    bottom: -20px;
+  }
+}
+
+@media only screen and (max-width: 991.98px) {
+  .unique-box__dot {
+    display: flex;
+  }
 }
