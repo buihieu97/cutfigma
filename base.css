@@ -114,12 +114,11 @@ button {
   .collection-text .collection-text__list .box-dot {
     display: flex;
 
-    bottom: -20px;
+    bottom: -39px;
   }
 }
 
 @media only screen and (max-width: 991.98px) {
   .unique-box__dot {
     display: flex;
-  }
 }
